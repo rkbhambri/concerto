@@ -2,7 +2,7 @@
     "name": "concerto",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://rkbhambri.github.io/symphony-ui/",
+    "homepage": "https://rkbhambri.github.io/concerto/",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
