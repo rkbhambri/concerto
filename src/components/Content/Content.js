@@ -13,7 +13,6 @@ const Content = (props) => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-
         getServices().then(data => {
             setServices(data)
         });

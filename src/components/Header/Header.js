@@ -8,12 +8,11 @@ const Header = (props) => {
             <img src={Logo} alt="Concerto" />
             <div className="topnav" id="myTopnav">
                 <a href="#home" className="active">Home</a>
-                <a href="#news">News</a>
+                <a href="#about">About Us</a>
+                <a href="#service">Service</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#blog">Blog</a>
                 <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-                {/* <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a> */}
             </div>
         </div>
     );

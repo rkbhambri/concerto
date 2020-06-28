@@ -22,3 +22,11 @@ export const isEmpty = (item) => {
 export const isArrayNotEmpty = (arr) => {
     return arr.length > 0;
 };
+
+export const getCookie = (key) => {
+    return document[key];
+};
+
+export const setCookie = (key, value) => {
+    document[key] = value;
+};
