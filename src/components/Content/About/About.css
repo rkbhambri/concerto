@@ -1,0 +1,39 @@
+
+.about {
+    display: flex;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.about .about-pic{
+    width: 60%;
+}
+
+.about .about-pic  img{
+    max-width: 100%;
+}
+
+.about .about-details{
+    width: 40%;
+}
+
+.about .about-details .title{
+    color: #151156;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about .about-details .description{
+    line-height: 1.7rem;
+    margin-top: 15px;
+    color: #696969;
+}
+
+.about .about-details .view-more-button{
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    background: #151156;
+    font-weight: 600;
+    margin-top: 30px;
+}

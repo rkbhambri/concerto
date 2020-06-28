@@ -1,12 +1,30 @@
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    width: 70%;
+    padding: 15%;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
-    font-weight: 800;
-    color: #ccc;
+    color: #fff;
+    background: #151156;
+    display: flex;
+}
+
+.footer .miscelleanous-details, .footer .need-help, .footer .useful-links-details{
+    line-height: 2rem;  
+    width: 30%;
+    margin: 50px;
+}
+
+.footer .miscelleanous-details .details {
+    font-size: 15px;
+}
+
+.footer .need-help .title,.footer .useful-links-details .title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer .need-help .need-help-links, .footer .useful-links-details .useful-links {
+    margin-top: 28px;
+    font-size: 15px;
 }

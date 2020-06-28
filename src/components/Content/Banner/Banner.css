@@ -1,0 +1,35 @@
+
+.banner {
+    background-color: #151156;
+}
+
+.banner .banner-details {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 1% 15%;
+    color: #fff;
+}
+
+.banner .banner-details .banner-text  {
+    margin: 100px 50px 100px 0px;
+}
+
+.banner .banner-details .banner-text  .get-started-button {
+    background: #fff;
+    padding: 10px 20px;
+    border: none;
+    color: #151156;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.banner .banner-details .banner-text .title{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner .banner-details img  {
+    width: 600px;
+    height: 500px;
+}

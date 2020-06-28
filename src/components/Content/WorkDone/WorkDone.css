@@ -1,0 +1,54 @@
+
+.work-done {
+    padding: 60px 0px;
+    text-align: center;
+}
+
+
+.work-done .work-done-details .title{
+    color: #151156;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.work-done .work-done-details  .description {
+    margin: 10px auto;
+    width: 500px;
+    line-height: 1.7rem;
+    color: #696969;
+}
+
+.work-done .work-done-pics {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.work-done .work-done-pics .hiking, .work-done .work-done-pics .career {
+    padding: 30px;
+    height: 300px;
+    width: 25%;
+    background-image: url('../../../assets/images/Rectangle\ 7.png');
+}
+
+.work-done .work-done-pics .fitness, .work-done .work-done-pics .christmas {
+    padding: 30px;
+    height: 300px;
+    width: 25%;
+    background-image: url('../../../assets/images/Rectangle\ 7\ copy.png');
+}
+
+.work-done .work-done-pics img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.work-done .see-all-button{
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    background: #151156;
+    font-weight: 600;
+    margin-top: 30px;
+}
+

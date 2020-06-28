@@ -1,0 +1,31 @@
+
+.accomplishments  {
+    background: #151156;
+    padding: 40px 0px;
+}
+
+.accomplishments .accomplishments-details  {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 1% 15%;
+}
+
+.accomplishments .accomplishments-details .clients,.accomplishments .accomplishments-details .projects-completed,
+.accomplishments .accomplishments-details .satisfied-clients,.accomplishments .accomplishments-details .awards{
+    text-align: center;
+    min-width: 200px;
+    line-height: 2.2rem;
+}
+.accomplishments .accomplishments-details .clients .value,  .accomplishments .accomplishments-details .projects-completed .value,
+.accomplishments .accomplishments-details .satisfied-clients .value,.accomplishments .accomplishments-details .awards .value{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.accomplishments .accomplishments-details .clients .title,  .accomplishments .accomplishments-details .projects-completed .title,
+.accomplishments .accomplishments-details .satisfied-clients .title,.accomplishments .accomplishments-details .awards .title{
+    font-size: 20px;
+    font-weight: 400;
+}

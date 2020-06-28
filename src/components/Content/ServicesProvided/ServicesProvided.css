@@ -1,0 +1,66 @@
+
+.services-provided  {
+    display: flex;
+    width: 70%;
+    padding: 1% 15%;
+    padding-top: 80px;
+}
+
+.services-provided .services-provided-details {
+    padding-right: 40px;
+    width: 40%;
+}
+
+.services-provided .services-provided-details .get-started-button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    background: #151156;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+.services-provided .services-provided-details .title{
+    color: #151156;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.services-provided .services-provided-details .description{
+    margin-top: 15px;
+    color: #696969;
+    /* font-size: 30px;
+    font-weight: 600; */
+}
+
+.services-provided .services-details {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    width: 60%;
+}
+
+.services-provided .services-details .services{
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px 15px;
+}
+
+.services-provided .services-details .services .logo{
+    text-align: center;
+}
+
+.services-provided .services-details .services .service  {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.services-provided .services .description {
+    word-break: break-all;
+    font-size: 17px;
+    margin-top: 12px;
+}
