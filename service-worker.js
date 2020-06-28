@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/concerto/precache-manifest.d690b79e3567f6f78a2afe44c93eb861.js"
+  "/concerto/precache-manifest.d89f271b07347812dc9d170e813da047.js"
 );
 
 self.addEventListener('message', (event) => {

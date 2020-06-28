@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "befb24b3f6f670975d37e1cc2853225a",
+    "revision": "21f28f7e1d0c88cbde118cd7da679118",
     "url": "/concerto/index.html"
   },
   {
-    "revision": "e077701d1903d6340f8b",
+    "revision": "8c95ab0c56870582d04e",
     "url": "/concerto/static/css/main.344c2313.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/concerto/static/js/2.127faf5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e077701d1903d6340f8b",
-    "url": "/concerto/static/js/main.35deebe4.chunk.js"
+    "revision": "8c95ab0c56870582d04e",
+    "url": "/concerto/static/js/main.97b504e9.chunk.js"
   },
   {
     "revision": "a8685a845c96e9f44b5c",
