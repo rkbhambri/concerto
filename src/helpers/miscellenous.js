@@ -24,9 +24,15 @@ export const isArrayNotEmpty = (arr) => {
 };
 
 export const getCookie = (key) => {
-    return document[key];
+    const pattern = RegExp(key + "=.[^;]*")
+    const matched = document.cookie.match(pattern);
+    if (matched) {
+        var cookie = matched[0].split('=')
+        return cookie[1];
+    }
+    return false;
 };
 
 export const setCookie = (key, value) => {
-    document[key] = value;
+    document.cookie = `${key}=${value}`;
 };
